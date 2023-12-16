@@ -8,5 +8,7 @@ if(isNaN(res))
 {
     alert("Wrong input")
 }
+else{
 
-alert(`Result of sum ${num1} and ${num2} = ${res}`)
+    alert(`Result of sum ${num1} and ${num2} = ${res}`)
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blur{
+    width: 500px;
+    height: 300px;
+    filter: blur(10px);
+}
+
+.unblur{
+    width: 500px;
+    height: 300px;
+}
+
+.content{
+    display: inline-block;
+}
+
+button{
+    display: block;
+    margin: auto;
+}

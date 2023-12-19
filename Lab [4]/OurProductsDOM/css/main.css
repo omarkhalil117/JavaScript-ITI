@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+}
+.container {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.itemsList {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.product {
+   display: inline-block;
+   width: 250px;
+   height: auto;
+   margin: auto;
+   background-color: antiquewhite;
+   border-radius: 20px;
+   margin: 20px;
+   border: 1px solid black;
+}
+
+
+
+.product img {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.btn1 , .btn2 {
+    margin-top: 20px;
+}

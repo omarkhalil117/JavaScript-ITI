@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-color: black;
+    margin: 0;
+}
+.section-one{
+    width: 16%;
+    height: 100vh;
+    /* background-color:yellow; */
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+}
+.btm{
+    width: 150px;
+    height: 240px;
+    background-color: white;
+    margin-top:250px;
+    margin-left:20px ;
+}
+button{
+    width: 100%;
+    height: 60px;
+    /* margin-top: 10px; */
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Mulish', sans-serif;
+    transition: .8s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.section-tow{
+    width: 60%;
+    height: 200vh;
+    /* background-color: aqua; */
+    margin: auto;
+    padding: 1px;
+}
+.tital{
+    width: 100%;
+    height: 30px;
+    /* background-color: yellowgreen; */
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 21px;
+    color: white;
+
+}
+.input1{
+    width:100%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    text-align: center;
+    margin-top: 30px;
+}
+input{
+    width:340px;
+    height: 40px;
+    border: none;
+    border-bottom:1px solid #B6B6B6 ;
+    background-color: black;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 50px; 
+    cursor: pointer;
+}
+.movies{
+    width: 100%;
+    height: 150vh;
+    /* background-color: cadetblue; */
+    margin-top: 70px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.film{
+    width: 31%;
+    height: 450px;
+    /* background-color: cornflowerblue; */
+    position:relative;
+    overflow: hidden;
+    margin-top:30px ;
+}
+
+img{
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+.cover{
+    width: 100%;
+    height: 450px;
+    background-color: red;
+    background: linear-gradient(to top ,#000,rgba(170,0,0,.4));
+    position: absolute;
+    top: 110%;
+    transition: 1s;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+.film:hover .cover{
+    top: 0;
+}
+.cover h2{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    padding-top: 50px;
+
+} 
+ .info-p{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    padding:30px 15px;
+    font-size: 14px;
+}
+.date ,.rate{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+
+

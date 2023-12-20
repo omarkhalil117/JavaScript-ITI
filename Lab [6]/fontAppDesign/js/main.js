@@ -5,7 +5,7 @@ var font4 = document.getElementById("btn4")
 var par1 = document.getElementById("text1")
 var par2 = document.getElementById("text2")
 var span = document.getElementById("sp")
-par1.addEventListener("keydown" , (event)=>{
+par1.addEventListener("keyup" , (event)=>{
             par2.innerHTML = par1.value
 })
 
